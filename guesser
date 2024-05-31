@@ -1,0 +1,11 @@
+import random
+
+# Generate a random number between 0 and 100
+random_number = random.randint(0, 1)
+
+guess = float(input('what is the random number? '))
+
+if random_number == guess:
+    print("you guessed it")
+else:
+    print("You didn't guess it, unlooky")
